@@ -1,4 +1,4 @@
-module github.com/Danr17/GO_scripts/tree/master/ping_util
+module github.com/Danr17/ping_util
 
 go 1.14
 

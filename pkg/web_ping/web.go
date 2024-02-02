@@ -9,8 +9,8 @@ import (
 
 	icmpPing "github.com/sparrc/go-ping"
 
-	"github.com/Danr17/GO_scripts/tree/master/ping_util/pkg/ping"
-	"github.com/Danr17/GO_scripts/tree/master/ping_util/pkg/utils"
+	"github.com/Danr17/ping_util/pkg/ping"
+	"github.com/Danr17/ping_util/pkg/utils"
 )
 
 type website struct {
@@ -18,7 +18,7 @@ type website struct {
 	Result *ping.Result
 }
 
-//WebPing data
+// WebPing data
 type WebPing struct {
 	sites []*website
 }
