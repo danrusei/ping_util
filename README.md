@@ -4,7 +4,7 @@ This repository is archived and no longer maintained.
 
 ## For convenience I created the executables
 
-The archive contain TAR archives per platform:
+Includes TAR archives per platform:
 
 * an executable (like tcp_ping-linux-386)
 * index.html - Should be in the same folder with the executable, otherwise the program will crash !
