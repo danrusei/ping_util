@@ -80,7 +80,7 @@ func main() {
 
 	case "web":
 		if *inWebFile == "" {
-			fmt.Println(usage)
+			fmt.Printf("{usage}")
 		}
 
 		server, WEBpinger = startWeb(args, timeoutDuration, intervalDuration)
